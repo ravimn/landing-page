@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  font-size: 18px;
+  font-family: "Roboto", "Arial";
+}
+
+.container {
+    max-width: 800px;  /* Limits width */
+    margin: 0 auto;    /* Centers the content */
+    padding: 20px;     /* Adds spacing on both sides */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links-item {
+  display: inline-block;
+}
+
+.header-body {
+  background-color: #1F2937;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.header-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  padding: 0 0;
+  margin: 0;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 0 0;
+  margin: 0;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 120px;
+  height: 30px;
+}
+
+.header-image {
+  width: auto;
+  height: 150px;
+  padding: 10px 20px;
+  max-width: 50%;
+  max-height: 25%;
+}
+
+.action {
+  padding: 40px 40px;
+}
+
+.action-container {
+  display: flex;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-text-container {
+  display: flex;
+  padding: 20px 10px;
+  flex-direction: column;
+}
+
+.action-text {
+  font-size: 15px;
+  color: #F9FAF8;
+  font-weight: 900;
+  padding: 0 0;
+  margin: 0;
+}
+
+.action-sub-text {
+  font-size: 10px;
+  color: #E5E7EB;
+  padding: 0 0;
+  margin: 0;
+}
+
+.quote {
+  padding: 40px 100px;
+  background-color: #E5E7EB;
+}
+.quote-container {
+  display:flex;
+  flex-direction: column;
+}
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 10;
+  margin:0;
+}
+
+.quote-author {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #1F2937;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+}
+
+.info-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-text {
+  text-align: center;
+
+}
+
+.copyright {
+  color: #E5E7EB;
+  text-align: center;
+  font-size: 0.8em;
+}
